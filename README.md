@@ -27,6 +27,9 @@ Follow these steps to set up a repository on GitHub and connect it to Azure:
   - Click the "New" button to create a new repository.
   - Follow the instructions on GitHub to set up the repository, giving it a name and description if necessary.
 
+   # agile-azure-project
+  This is the repo for the Agile Development with Azure. https://github.com/Camilafabiani87/Azure-Agile-Project/tree/main
+
   ![New project in GitHub](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/image-4.png)
   
 
@@ -70,11 +73,6 @@ Follow these steps to set up a repository on GitHub and connect it to Azure:
 
  ![GitHub Acions](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/image-7png.png)
 
- # agile-azure-project
-This is the repo for the Agile Development with Azure. https://github.com/Camilafabiani87/Azure-Agile-Project/tree/main
-
-![Python application test with Github Actions] ![Alt text](image.png)
-![GitHub Actions](image-1.png)
 
 ## 4. Clone the Repository in Azure
 
@@ -82,7 +80,7 @@ This is the repo for the Agile Development with Azure. https://github.com/Camila
 
   - Open a terminal in Azure.
 
-  - Clone the GitHub repository in Azure using the `git clone` command. Replace `https://github.com/Camilafabiani87/CI-CD-Pipeline-Project` with the actual URL of your GitHub repository:
+  - Clone the GitHub repository in Azure using the `git clone` command. Replace `https://github.com/Camilafabiani87/CD-CI-Project` with the actual URL of your GitHub repository:
 
     ```bash
     git clone https://github.com/Camilafabiani87/CI-CD-Pipeline-Project
