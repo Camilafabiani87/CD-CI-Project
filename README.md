@@ -27,7 +27,7 @@ Follow these steps to set up a repository on GitHub and connect it to Azure:
   - Click the "New" button to create a new repository.
   - Follow the instructions on GitHub to set up the repository, giving it a name and description if necessary.
 
-  ![New project in GitHub](image-4.png)
+  ![New project in GitHub](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/image-4.png)
   
 
 ## 2. Generate an SSH Key for Communication with GitHub
@@ -61,12 +61,14 @@ Follow these steps to set up a repository on GitHub and connect it to Azure:
     6. Give the key a descriptive name if desired.
     7. Click "Add SSH key" to save it.
 
-    ![SSH KEY IN GITHUB](image-5.png)
-    ![Files in the new repository](image-6.png)
+    ![SSH KEY IN GITHUB](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/image-5.png)
+    ![Files in the new repository](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/image-6.png)
 
 ### CI: Configure github actions
 
  Go to actions in the repository and create a yml file (be sure you set up a python's version available) and verify that the tests pass. You can also paste the status badge in the readme file.
+
+ ![GitHub actions] (https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/image-7png.png)
 
  # agile-azure-project
 This is the repo for the Agile Development with Azure. https://github.com/Camilafabiani87/Azure-Agile-Project/tree/main
@@ -133,7 +135,7 @@ Follow these steps to create a Python virtual environment, activate it, and run 
   - This will execute the "make all" target or command. Make sure your project's Makefile contains the necessary instructions for this step.
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
-![Alt text](image.png)
+![Make All passed](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/image.png)
 
 You've successfully created a Python virtual environment, activated it, and run the "make all" command. Your project should now be set up and ready for further development or building.
 
