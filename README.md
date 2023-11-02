@@ -83,7 +83,7 @@ Follow these steps to set up a repository on GitHub and connect it to Azure:
   - Clone the GitHub repository in Azure using the `git clone` command. Replace `https://github.com/Camilafabiani87/CD-CI-Project` with the actual URL of your GitHub repository:
 
     ```bash
-    git clone https://github.com/Camilafabiani87/CI-CD-Pipeline-Project
+    git clone https://github.com/Camilafabiani87/CD-CI-Project
     ```
 
 You're all set! You now have your GitHub repository set up and connected to Azure. 
