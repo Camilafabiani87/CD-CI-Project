@@ -68,7 +68,7 @@ Follow these steps to set up a repository on GitHub and connect it to Azure:
 
  Go to actions in the repository and create a yml file (be sure you set up a python's version available) and verify that the tests pass. You can also paste the status badge in the readme file.
 
- ![GitHub actions] (https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/image-7png.png)
+ ![GitHub Acions](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/image-7png.png)
 
  # agile-azure-project
 This is the repo for the Agile Development with Azure. https://github.com/Camilafabiani87/Azure-Agile-Project/tree/main
