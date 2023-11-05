@@ -88,6 +88,8 @@ Follow these steps to set up a repository on GitHub and connect it to Azure:
 
 You're all set! You now have your GitHub repository set up and connected to Azure. 
 
+![GitHub Acions](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/shhClone.png)
+
 
 * Project running on Azure App Service
 
