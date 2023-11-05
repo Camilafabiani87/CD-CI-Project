@@ -163,7 +163,7 @@ You've successfully created a Python virtual environment, activated it, and run 
 ## 15. Create a pipeline for the project, select the repository and save and run the yml file. 
 ![Pipeline](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/pipeline-deploy.png)
 
-# Demo
+# Video
 
 
 
