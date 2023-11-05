@@ -88,13 +88,6 @@ Follow these steps to set up a repository on GitHub and connect it to Azure:
 
 You're all set! You now have your GitHub repository set up and connected to Azure. 
 
-![GitHub Acions](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/shhClone.png)
-
-
-* Project running on Azure App Service
-
-
-* Project cloned into Azure Cloud Shell
 
 # Instructions for Setting Up a Python Virtual Environment and Running "make all"
 
@@ -139,35 +132,16 @@ Follow these steps to create a Python virtual environment, activate it, and run 
 
 You've successfully created a Python virtual environment, activated it, and run the "make all" command. Your project should now be set up and ready for further development or building.
 
+Continuos Delivery on Azure
+1.Clone a new repository with the flask code application or replace the files of the one already created. Then, create a virtual environment and install all the packages needed.
+![GitHub Clone](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/shhClone.png)
+2.Create the webapp with the following command az webapp up -n myweb87 -l westeurope --resource-group Azuredevops. You can change the name and configurations as needed.
+![az web](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/myweb87.png)
+3.Give permissions with the chmod +x make_predict_azure_app.sh command and run the prediction file like this ./make_predict_azure_app.sh.
+![Predictions](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/predict.png)
+4.You can stream the logs of the webapp with the following command az webapp log tail.
 
-* Output of a test run
 
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
-![Alt text](image-2.png)
 
-* Running Azure App Service from Azure Pipelines automatic deployment
-![Alt text](image-3.png)
-![Alt text](image-1.png)
-
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
-
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
-
-* Output of streamed log files from deployed application
-
-> 
-
-## Enhancements
-
-<TODO: A short description of how to improve the project in the future>
-
-## Demo 
-
-<TODO: Add link Screencast on YouTube>
 
 
