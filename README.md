@@ -140,6 +140,23 @@ Continuos Delivery on Azure
 3.Give permissions with the chmod +x make_predict_azure_app.sh command and run the prediction file like this ./make_predict_azure_app.sh.
 ![Predictions](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/predict.png)
 4.You can stream the logs of the webapp with the following command az webapp log tail.
+![Logs](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/logs.png)
+5.Create some tests using locust and run them in your local terminal ./loadtesting.sh wich will run the locust file.
+![Locust](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/locust.png)
+![Graphic](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/graphic-locust.png)
+6.Create a Devops organization from the Azure DevOps organizations service in the azure portal.
+7.Go to settings and allow public project. Then, create a public project.
+8.Create an access token and save it to use it in a forward step.
+9.Create a service connection from the project settings.
+10.Download an agent with the following command curl -O https://vstsagentpackage.azureedge.net/agent/3.227.2/vsts-agent-linux-x64-3.227.2.tar.gz. This one works for a Linux system.
+11.Create a new directory and move into it, you can use this command mkdir myagent && cd myagent.
+12.Extracts the downloaded documents like this tar zxvf ../vsts-agent-linux-x64-3.227.2.tar.gz.
+13.Make the agent configuration, you will need to enter the devops organization url and the access token. Start the configuration with ./config.sh command.
+![Azure]https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/azure-pipelines1.png
+![Azure2]https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/azure-pipelines2.png
+14.Create a pipeline for the project, select the repository and save and run the yml file. 
+![Pipeline]https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/pipeline-deploy.png
+Demo
 
 
 
