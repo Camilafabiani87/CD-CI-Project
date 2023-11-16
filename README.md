@@ -1,20 +1,18 @@
 # Overview
 This project involves the development of a CI/CD Pipeline. Initially, we will create it using GitHub Actions in combination with a Makefile, requirements, and application code. Subsequently, we will connect this to Azure Pipelines while utilizing the Flask web framework
 
-<TODO>
 
 ## Project Plan
-<TODO: Project Plan
+Project Plan
 
 * A link to a Trello board for the project: https://trello.com/b/O8gwgfRv/project
 * A link to a spreadsheet that includes the original and final project plan: https://docs.google.com/spreadsheets/d/1zk9uDbzFqprfJLEdZBKMihjr-zKj8dO9t_13c_ZwtZU/edit#gid=0
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+ 
+* Architectural Diagram 
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 # Instructions for Setting Up a GitHub Repository with Azure
 
@@ -134,37 +132,37 @@ You've successfully created a Python virtual environment, activated it, and run 
 
 # Instructions for Continuos Delivery on Azure
 
-## 1. Clone a new repository with the flask code application or replace the files of the one already created. Then, create a virtual environment and install all the packages needed.
+ 1. Clone a new repository with the flask code application or replace the files of the one already created. Then, create a virtual environment and install all the packages needed.
 ![GitHub Clone](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/shhClone.png)
 
-## 3. Create the webapp with the following command az webapp up -n myweb87 -l westeurope --resource-group Azuredevops. You can change the name and configurations as needed.
+3. Create the webapp with the following command  az webapp up -n myweb87 -l westeurope --resource-group Azuredevops. You can change the name and configurations as needed.
 ![az web](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/myweb87.png)
 
-## 4. Give permissions with the chmod +x make_predict_azure_app.sh command and run the prediction file like this ./make_predict_azure_app.sh.
+ 4. Give permissions with the chmod +x make_predict_azure_app.sh command and run the prediction file like this ./make_predict_azure_app.sh.
 ![Predictions](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/predict.png)
 
-## 5. You can stream the logs of the webapp with the following command az webapp log tail.
+5. You can stream the logs of the webapp with the following command az webapp log tail.
 ![Logs](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/logs.png)
 
-## 6. Create some tests using locust and run them in your local terminal ./loadtesting.sh wich will run the locust file.
+ 6. Create some tests using locust and run them in your local terminal ./loadtesting.sh wich will run the locust file.
 ![Locust](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/locust.png)
 ![Graphic](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/graphic-locust.png)
 
-## 7. Create a Devops organization from the Azure DevOps organizations service in the azure portal.
-## 8. Go to settings and allow public project. Then, create a public project.
-## 9. Create an access token and save it to use it in a forward step.
-## 10. Create a service connection from the project settings.
-## 11. Download an agent with the following command curl -O https://vstsagentpackage.azureedge.net/agent/3.227.2/vsts-agent-linux-x64-3.227.2.tar.gz. This one works for a Linux system.
-## 12. Create a new directory and move into it, you can use this command mkdir myagent && cd myagent.
-## 13. Extracts the downloaded documents like this tar zxvf ../vsts-agent-linux-x64-3.227.2.tar.gz.
-## 14. Make the agent configuration, you will need to enter the devops organization url and the access token. Start the configuration with ./config.sh command.
+ 7. Create a Devops organization from the Azure DevOps organizations service in the azure portal.
+ 8. Go to settings and allow public project. Then, create a public project.
+ 9. Create an access token and save it to use it in a forward step.
+ 10. Create a service connection from the project settings.
+ 11. Download an agent with the following command curl -O https://vstsagentpackage.azureedge.net/agent/3.227.2/vsts-agent-linux-x64-3.227.2.tar.gz. This one works for a Linux system.
+ 12. Create a new directory and move into it, you can use this command mkdir myagent && cd myagent.
+ 13. Extracts the downloaded documents like this tar zxvf ../vsts-agent-linux-x64-3.227.2.tar.gz.
+ 14. Make the agent configuration, you will need to enter the devops organization url and the access token. Start the configuration with ./config.sh command.
 ![Azure](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/azure-pipelines1.png)
 ![Azure2](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/azure-pipelines2.png)
-## 15. Create a pipeline for the project, select the repository and save and run the yml file. 
+15. Create a pipeline for the project, select the repository and save and run the yml file. 
 ![Pipeline](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/pipeline-deploy.png)
 
 # Video
-
+https://www.youtube.com/watch?v=Rpswar2E-H8
 
 
 
