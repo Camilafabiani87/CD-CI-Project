@@ -8,13 +8,10 @@ Project Plan
 * A link to a Trello board for the project: https://trello.com/b/O8gwgfRv/project
 * A link to a spreadsheet that includes the original and final project plan: https://docs.google.com/spreadsheets/d/1zk9uDbzFqprfJLEdZBKMihjr-zKj8dO9t_13c_ZwtZU/edit#gid=0
 
-## Instructions
-
- 
 * Architectural Diagram 
 
 
-# Instructions for Setting Up a GitHub Repository with Azure
+## Instructions for Setting Up a GitHub Repository with Azure
 
 Follow these steps to set up a repository on GitHub and connect it to Azure:
 
@@ -25,7 +22,7 @@ Follow these steps to set up a repository on GitHub and connect it to Azure:
   - Click the "New" button to create a new repository.
   - Follow the instructions on GitHub to set up the repository, giving it a name and description if necessary.
 
-   # agile-azure-project
+   # Agile-azure-project
   This is the repo for the Agile Development with Azure. https://github.com/Camilafabiani87/Azure-Agile-Project/tree/main
 
   ![New project in GitHub](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/image-4.png)
@@ -135,10 +132,10 @@ You've successfully created a Python virtual environment, activated it, and run 
  1. Clone a new repository with the flask code application or replace the files of the one already created. Then, create a virtual environment and install all the packages needed.
 ![GitHub Clone](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/shhClone.png)
 
-3. Create the webapp with the following command  az webapp up -n myweb87 -l westeurope --resource-group Azuredevops. You can change the name and configurations as needed.
+3. Create the webapp with the following command  __az webapp up -n myweb87 -l westeurope --resource-group Azuredevops__. You can change the name and configurations as needed.
 ![az web](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/myweb87.png)
 
- 4. Give permissions with the chmod +x make_predict_azure_app.sh command and run the prediction file like this ./make_predict_azure_app.sh.
+ 4. Give permissions with the __chmod +x make_predict_azure_app.sh__ command and run the prediction file like this __./make_predict_azure_app.sh__.
 ![Predictions](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/predict.png)
 
 5. You can stream the logs of the webapp with the following command az webapp log tail.
@@ -153,9 +150,9 @@ You've successfully created a Python virtual environment, activated it, and run 
  9. Create an access token and save it to use it in a forward step.
  10. Create a service connection from the project settings.
  11. Download an agent with the following command curl -O https://vstsagentpackage.azureedge.net/agent/3.227.2/vsts-agent-linux-x64-3.227.2.tar.gz. This one works for a Linux system.
- 12. Create a new directory and move into it, you can use this command mkdir myagent && cd myagent.
- 13. Extracts the downloaded documents like this tar zxvf ../vsts-agent-linux-x64-3.227.2.tar.gz.
- 14. Make the agent configuration, you will need to enter the devops organization url and the access token. Start the configuration with ./config.sh command.
+ 12. Create a new directory and move into it, you can use this command __mkdir myagent && cd myagent__.
+ 13. Extracts the downloaded documents like this __tar zxvf ../vsts-agent-linux-x64-3.227.2.tar.gz__.
+ 14. Make the agent configuration, you will need to enter the devops organization url and the access token. Start the configuration with __./config.sh__ command.
 ![Azure](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/azure-pipelines1.png)
 ![Azure2](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/azure-pipelines2.png)
 15. Create a pipeline for the project, select the repository and save and run the yml file. 
