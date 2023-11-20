@@ -159,7 +159,7 @@ You've successfully created a Python virtual environment, activated it, and run 
 ![Pipeline](https://github.com/Camilafabiani87/CD-CI-Project/blob/main/img/pipeline-deploy.png)
 
 # Video
-https://www.youtube.com/watch?v=Rpswar2E-H8
+
 
 
 
